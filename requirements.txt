@@ -1,0 +1,5 @@
+pytest==8.3.2
+Appium-Python-Client==4.1.0
+opencv-python==4.10.0.84
+numpy==2.1.1
+selenium==4.24.0
