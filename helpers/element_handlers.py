@@ -29,6 +29,5 @@ def wait_for_img_element(driver: WebDriver, element_img_path: Path, timeout: int
         if coordinates := get_images_diff_coordinates(screen_img, element_img):
             return coordinates
         else:
-            print(f"Element '{element_img_path.name}' not found, continuing to wait...")
             time.sleep(1)
     return None
